@@ -1,0 +1,19 @@
+p {
+    color: crimson;
+    font-size: 32px;
+}
+h1, h3 {
+    color: #ff00d5;
+}
+sub {
+    font-size: 16px;
+    color: darkred;
+}
+sup {
+    font-size: 16px;
+    color: darkgreen;
+}
+span {
+    font-size: 40px;
+    color: blueviolet;
+}
