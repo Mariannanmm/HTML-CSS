@@ -1,7 +1,7 @@
- p   {
+p {
     font-size: 20px;
     color: black;
 }
- h1  h2   {
+h1, h2 {
     color: darkgrey;
 }
