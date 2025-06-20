@@ -4,3 +4,7 @@ h1, h2 {
 p {
     font-size: 20px;
 }
+sup {
+    font-size: 10px;
+    color: black;
+}
