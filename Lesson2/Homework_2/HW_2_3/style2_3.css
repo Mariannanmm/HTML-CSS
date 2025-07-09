@@ -18,6 +18,12 @@ body {
     background-color: #bbe8de;
     border-radius: 5px;
     padding: 10px;
+    transition: 1.5s;
+}
+.month:hover{
+    width: 220px;
+    height: 180px;
+    transition: 1.5s;
 }
 
 .month h2 {
