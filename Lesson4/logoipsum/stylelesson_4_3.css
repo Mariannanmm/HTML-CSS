@@ -210,3 +210,112 @@ header nav a{
     letter-spacing: -0.5px;
     width: 307px;
 }
+.pre_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 98px 0;
+}
+.pre_price h2{
+    color: #19191B;
+    font-family: "DM Sans";
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px; /* 116.667% */
+    letter-spacing: -1.876px;
+    width: 523px;
+}
+.pre_price div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+}
+.pre_price div button{
+    width: 160px;
+    height: 55px;
+
+}
+.yearly {
+    background-color: #5454D4;
+    border-radius: 10px 0px 0px 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: -0.5px;
+}
+.yearly:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: white;
+}
+.monthly {
+    border-radius: 0 10px 10px 0;
+    background-color: lightgrey;
+    color: #19191B;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+.monthly:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+}
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /*width: 330px;*/
+    /*height: 441px;*/
+    border-radius: 10px;
+    /*background: #d6adad;*/
+    color: #696871;
+}
+.price-test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: row;*/
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #d6adad;
+    color: #696871;
+    margin: 16px;
+}
+
+.price div p{
+    color: #696871;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: -0.563px;
+}
+.price div h3{
+    color: #1D293F;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 93.333% */
+    letter-spacing: -1.034px;
+}
+
+/*.wrapper{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 30px;*/
+/*    padding: 15px 0;*/
