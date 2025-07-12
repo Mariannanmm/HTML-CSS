@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+header{
+    height: 20vh;
+    width: 100vw;
+    background: #8D8484;
+}
+main{
+    display: flex;
+
+}
+div section {
+    width: 73vw;
+    height: 20vh;
+
+}
+aside {
+    width: 27vw;
+    height: 30vh;
+}
+footer{
+    height: 20vh;
+    width: 100vw;
+    background: #BDBDBD;
+}
+.content_1{
+    background: #776969;
+}
+.content_2{
+    background: #643030;
+}
+.content_3{
+    background: #441818;
+}
+
+.spam_1{
+    background: #937575;
+}
+.spam_2{
+    background: #644C4C;
+}
+
+header, footer p{
+    color: #000;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 400;
+}
+aside, section p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+header, footer, section, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
