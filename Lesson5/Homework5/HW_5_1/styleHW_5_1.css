@@ -1,0 +1,21 @@
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    border-top: 40px solid orange;
+    border-right: 20px solid yellow;
+    border-bottom: 40px solid red;
+    border-left: 20px solid darkred;
+    animation: preloader 5s linear infinite alternate;
+    margin: 100px auto 0 auto;
+}
+@keyframes preloader{
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(-360deg) scale(1.5);
+    }
+}
