@@ -17,6 +17,7 @@ body{
     flex-direction: column;
 }
 nav{
+    width: 100%;
     padding-top: 36px;
     display: flex;
     justify-content: flex-end;
@@ -101,8 +102,6 @@ ul a{
     height: 60px;
     border: 4px solid #1E1E1E;
     background: #E9E3DC;
-
-    /* DropShadow */
     box-shadow: 8px 8px 0px 0px #000;
     color: #1E1E1E;
     text-align: center;
@@ -112,4 +111,37 @@ ul a{
     font-weight: 400;
     line-height: 96.896%; /* 17.441px */
     text-transform: uppercase;
+}
+.img_food{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 0 64px 0;
+}
+.for_order{
+    width: 895px;
+    color: #E9E3DC;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 101.896%; /* 71.328px */
+    text-transform: uppercase;
+    padding-top: 64px;
+}
+.get_started{
+    width: 196px;
+    height: 60px;
+    background: #D1EF53;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Bowlby One";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 96.896%; /* 17.441px */
+    text-transform: uppercase;
+    border: none;
+    margin-top: 33px;
+    margin-bottom: 36px;
 }
