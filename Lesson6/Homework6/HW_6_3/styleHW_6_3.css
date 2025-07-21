@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.section_1{
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section_2{
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    border-radius: 4px;
+}
+div img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+input {
+    width: 330px;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.or {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.facebook-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3897f0;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.facebook-login p{
+    margin-bottom: 30px;
+    color: #00376b;
+}
+.facebook-login img {
+    width: 20px;
+    margin-right: 6px;
+}
+.forgot-password {
+    font-size: 12px;
+    color: #00376b;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.register {
+    font-size: 14px;
+}
+.register a {
+    color: #3897f0;
+    text-decoration: none;
+}
