@@ -1,0 +1,9 @@
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .item1{
+        background-color: yellowgreen;
+    }
+    .item3{
+        background-color: #FF537C;
+    }
+}
