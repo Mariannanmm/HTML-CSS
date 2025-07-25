@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 0;
+    font-family: 'Inter', sans-serif;
+    width: 1180px;
+    margin: 0 auto;
+    gap: 32px;
+    flex-wrap: wrap;
+
+}
+.container{
+    width: 372px;
+    text-align: center;
+}
+.container img{
+    width: 100%;
+
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+    .section{
+        width: 100%;
+        padding: 32px 16px;
+        gap: 40px;
+
+    }
+    .container{
+        width: 100%;
+    }
+    .container img{
+        width: 100%;
+    }
+
+}
