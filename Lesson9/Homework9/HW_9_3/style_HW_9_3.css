@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+}
+.grid-box{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+    'header header'
+    'content-1 spam-1'
+    'content-2 spam-1'
+    'content-2 spam-2'
+    'content-3 spam-2'
+    'footer footer'
+}
+.grid-box header{
+    grid-area: header;
+    background-color: #8D8484;
+}
+.grid-box .content-1{
+    grid-area: content-1;
+    background-color: #776969;
+}
+.grid-box .content-2{
+    grid-area: content-2;
+    background-color: #643030;
+}
+.grid-box .content-3{
+    grid-area: content-3;
+    background-color: #441818;
+}
+.grid-box .spam-1{
+    grid-area: spam-1;
+    background-color: #937575;
+}
+.grid-box .spam-2{
+    grid-area: spam-2;
+    background-color: #644C4C;
+}
+.grid-box footer{
+    grid-area: footer;
+    background-color: #BDBDBD;
+}
+.grid-box header h3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+}
+.grid-box footer h3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: black;
+    text-align: center;
+    padding-top: 45px;
+}
+.grid-box section h3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+.grid-box aside h3{
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
